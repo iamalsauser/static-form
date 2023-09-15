@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Donation Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body >
+  <div class="form-container">
+    <form action="/action_page.php">
+      <!-- Form fields go here -->
+    </form>
+  </div>
+    
+  <h1>Food Donation Form</h1>
+  <h2 id="location">LOCATION</h2>
+<div class="location-body">
+  <!-- Location information goes here -->
+</div>
+
+
+  <form action="/action_page.php">
+
+    <label for="name">Donor Name</label>
+    <input type="text" id="name" name="name">
+
+    <label for="location">Donor Location</label>
+    <input type="text" id="location" name="location">
+
+    <label for="donation_location">Donation Location</label>
+    <input type="text" id="donation_location" name="donation_location">
+
+    <label for="contact_number">Contact number</label>
+    <input type="tel" id="contact_number" name="contact_number">
+
+    <label for="food_type">Food Category</label>
+    <input type="text" id="food_type" name="food_type">
+
+    <label for="food_description">Food Description</label>
+    <textarea id="food_description" name="food_description"></textarea>
+
+    <label for="expiry_date">use-by date</label>
+    <input type="date" id="expiry_date" name="expiry_date">
+
+    <label for="assistance">Need any Assistance?</label>
+    <select id="assistance" name="assistance">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <input type="submit" value="Submit">
+
+    <footer class="contact-us">
+        <p>Contact Us</p>
+        <p>Phone: +1-555-555-5555</p>
+        <p>Email: info@example.com</p>
+      </footer>
+      
+
+  </form>
+
+</body>
+</html>
